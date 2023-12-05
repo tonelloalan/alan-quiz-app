@@ -43,6 +43,10 @@ main {
   padding-bottom: 20%;
 }
 
+.question-cards h4 {
+  color: white;
+}
+
 .question-card-1,
 .question-card-2,
 .question-card-3,
@@ -57,7 +61,7 @@ main {
   background-color: var(--l#);
   margin: 5%;
   padding: 30px;
-  box-shadow: 0px 3px 9px 1px var(--primary-color);
+  box-shadow: 0px 3px 10px 1px var(--light-color);
   /* border: solid var(--blacks); */
   border-radius: 20px;
   display: flex;
