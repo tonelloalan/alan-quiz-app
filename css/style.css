@@ -27,12 +27,13 @@
 main {
   height: 100%;
   background-color: var(--whites);
-  color: ;
 }
 
 .question-cards {
   padding: 10%;
+  padding-bottom: 20%;
 }
+
 .question-card-1,
 .question-card-2,
 .question-card-3,
@@ -45,7 +46,7 @@ main {
 .question-card-10 {
   border: solid var(--blacks) 0.5px;
   background-color: var();
-  margin: 30px;
+  margin: 5%;
   padding: 30px;
   box-shadow: 0px 1px 15px 1px var(--primary-color);
   /* border: solid var(--blacks); */
