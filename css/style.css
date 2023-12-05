@@ -25,10 +25,32 @@
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   background-color: var(--whites);
   color: ;
 }
+
+.question-cards {
+  padding: 10%;
+}
+.question-card-1,
+.question-card-2,
+.question-card-3,
+.question-card-4,
+.question-card-5,
+.question-card-6,
+.question-card-7,
+.question-card-8,
+.question-card-9,
+.question-card-10 {
+  background-color: var();
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 0px 1px 15px 1px var(--primary-color);
+  /* border: solid var(--blacks); */
+  border-radius: 5px;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
