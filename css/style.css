@@ -21,6 +21,7 @@ header {
   position: sticky;
   top: 0px;
   z-index: 1;
+  box-shadow: 0px 0px 30px 1px var(--primary-shadow);
 }
 
 .title {
@@ -70,7 +71,6 @@ main {
   margin: 5%;
   padding: 30px;
   box-shadow: 0px 2px 10px 1px var(--primary-shadow);
-  /* border: solid var(--blacks); */
   border-radius: 20px;
   display: flex;
   flex-direction: column;
