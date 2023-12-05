@@ -45,7 +45,7 @@ main {
 
 .question-cards {
   padding: 10%;
-  padding-bottom: 20%;
+  padding-bottom: 30%;
 }
 
 .question-cards h3 {
@@ -68,7 +68,7 @@ main {
 .question-card-10 {
   border: solid var(--blacks) 0.5px;
   background-color: var(--white);
-  margin: 5%;
+  margin-bottom: 25%;
   padding: 30px;
   box-shadow: 0px 2px 10px 1px var(--primary-shadow);
   border-radius: 20px;
