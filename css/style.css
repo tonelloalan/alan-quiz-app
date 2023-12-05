@@ -66,7 +66,16 @@ li {
   justify-content: space-around;
 }
 
-.profile-cards img {
+.profile-card-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-card-2 img {
+  height: 30px;
+}
+
+.profile-card-1 img {
   height: 9em;
   border-radius: 50%;
   box-shadow: 0px 0px 15px 1px var(--primary-shadow);
