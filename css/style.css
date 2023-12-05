@@ -14,7 +14,7 @@
 }
 
 header {
-  position: sticky;
+  /* position: sticky; */
   top: 0px;
   z-index: 1;
   box-shadow: 0px 0px 30px 1px var(--primary-shadow);
@@ -22,7 +22,7 @@ header {
 
 .title {
   min-height: 50px;
-  position: relative;
+  position: sticky;
   background-color: var(--primary-color);
   color: var(--blacks);
   padding: 5vh;
@@ -33,6 +33,22 @@ header {
 main {
   height: 100%;
   background-color: var(--secondary-color);
+}
+
+ul {
+  font-size: small;
+  font-weight: lighter;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+li {
+  border: solid var(--primary-color) 0.5px;
+  border-radius: 4px;
+  padding: 2px;
 }
 
 .question-cards img {
