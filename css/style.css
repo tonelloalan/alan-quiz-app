@@ -5,21 +5,121 @@
 
 :root {
   --primary-color: #ffd21f;
-  --secondary-color: #adc178;
-  --secondary-lighter: #dde5b6;
-  --light-color: #dfd1cd;
-  --dark-color: #a98467;
-  --whites: #fff2f2;
+  --secondary-color: #fefbe2;
+  --primary-shadow: #cac59b;
+  --white: white;
   --blacks: #1a1918;
-}
-
-.header {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  /* position: sticky; */
+  top: 0px;
+  z-index: 1;
+  box-shadow: 0px 0px 30px 1px var(--primary-shadow);
+}
+
+.title {
+  min-height: 50px;
+  position: sticky;
   background-color: var(--primary-color);
   color: var(--blacks);
   padding: 5vh;
   text-align: center;
-  font-size: 1.7rem;
-  box-shadow: 0px 1px 15px 2px rgba(0, 0, 255, 0.15);
+  font-size: larger;
+}
+
+main {
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+ul {
+  font-size: small;
+  font-weight: lighter;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+li {
+  border: solid var(--primary-color) 0.5px;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.question-cards img {
+  position: absolute;
+  top: -10px;
+  right: 28px;
+  height: 50px;
+  width: 50px;
+}
+
+.question-cards {
+  padding: 20% 10%;
+}
+
+.question-cards h3 {
+  padding-top: 20px;
+}
+
+.question-cards h4 {
+  color: white;
+}
+
+.question-card-1,
+.question-card-2,
+.question-card-3,
+.question-card-4,
+.question-card-5,
+.question-card-6,
+.question-card-7,
+.question-card-8,
+.question-card-9,
+.question-card-10 {
+  border: solid var(--blacks) 0.5px;
+  background-color: var(--white);
+  margin-bottom: 25%;
+  padding: 30px;
+  box-shadow: 0px 2px 10px 1px var(--primary-shadow);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.answer-button {
+  text-align: center;
+  padding: 10px;
+  border: none;
+  background-color: var(--blacks);
+  color: var(--white);
+  border-radius: 5px;
+  margin: auto;
+  /* margin-top: 1.5em; */
+  font-size: medium;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0px 2px 10px 1px var(--primary-shadow);
+}
+
+.nav-bar {
+  background-color: var(--primary-color);
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar img {
+  height: 30px;
 }
