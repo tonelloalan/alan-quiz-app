@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-color: #ffd21f;
   --secondary-color: #adc178;
@@ -6,4 +11,8 @@
   --dark-color: #a98467;
   --whites: #fff2f2;
   --blacks: #1a1918;
+}
+
+header {
+  background-color: var(--primary-color);
 }
