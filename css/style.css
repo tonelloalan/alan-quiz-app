@@ -43,6 +43,7 @@ main {
 .question-card-8,
 .question-card-9,
 .question-card-10 {
+  border: solid var(--blacks) 0.5px;
   background-color: var();
   margin: 30px;
   padding: 30px;
@@ -63,4 +64,8 @@ main {
   height: 100px;
   justify-content: space-around;
   align-items: center;
+}
+
+.nav-bar img {
+  height: 50px;
 }
