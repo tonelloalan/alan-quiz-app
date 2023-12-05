@@ -5,11 +5,8 @@
 
 :root {
   --primary-color: #ffd21f;
-  --secondary-color: #adc178;
-  --secondary-lighter: #dde5b6;
-  --light-color: #f1ebe0;
-  --dark-color: #a98467;
-  --whites: #fff2f2;
+  --secondary-color: #fefbe2;
+  --primary-shadow: #cac59b;
   --white: white;
   --blacks: #1a1918;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -33,11 +30,12 @@ header {
   color: var(--blacks);
   padding: 5vh;
   text-align: center;
+  font-size: larger;
 }
 
 main {
   height: 100%;
-  background-color: var(--white);
+  background-color: var(--secondary-color);
 }
 
 .bookmark-img {
@@ -68,10 +66,10 @@ main {
 .question-card-9,
 .question-card-10 {
   border: solid var(--blacks) 0.5px;
-  background-color: var(--l#);
+  background-color: var(--white);
   margin: 5%;
   padding: 30px;
-  box-shadow: 0px 3px 10px 1px var(--light-color);
+  box-shadow: 0px 2px 10px 1px var(--primary-shadow);
   /* border: solid var(--blacks); */
   border-radius: 20px;
   display: flex;
