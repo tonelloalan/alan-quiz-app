@@ -31,11 +31,15 @@ header {
   min-height: 50px;
   position: sticky;
   background-color: var(--primary-color);
-  color: var(--blacks);
+  color: var(--secondary-color);
   padding: 5vh;
   text-align: center;
   font-size: x-large;
   font-family: "playfair";
+}
+
+.title > h1 {
+  text-shadow: #1a1918 1px 1px 1px;
 }
 
 main {
