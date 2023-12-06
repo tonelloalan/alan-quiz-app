@@ -1,17 +1,22 @@
+@font-face {
+  font-family: "playfair";
+  src: url(/fonts/playfair.ttf) format(truetype);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --primary-color: #ffd21f;
-  --secondary-color: #fefbe2;
-  --primary-shadow: #cac59b;
+  --primary-color: #588157;
+  --secondary-color: #dad7cd;
+  --primary-shadow: #a3b18a;
   --white: white;
   --blacks: #1a1918;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "playfair";
 }
+
 body {
   background-color: var(--secondary-color);
 }
@@ -29,7 +34,8 @@ header {
   color: var(--blacks);
   padding: 5vh;
   text-align: center;
-  font-size: larger;
+  font-size: x-large;
+  font-family: "playfair";
 }
 
 main {
@@ -45,6 +51,8 @@ ul {
   list-style-type: none;
   margin-top: 30px;
   gap: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 li {
