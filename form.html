@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css"  />
+    <script src="./js/form.js" defer></script>
+  </head>
+
+  <body class="formBody">
+    <header class="title">
+      <h1>The Musicals Quiz App</h1>
+    </header>
+    <main data-js="main">
+      <div class="question-cards">
+        <div class="question-card-1">
+          <!--
+"Your question" as <textarea />
+"Your answer" as <textarea />
+"Tag" as <input type="text" />
+Submit button -->
+<div class="form-container" data-js="form-container">
+<form id="quiz-form"> <!-- initiate form -->
+    <!-- first item -->
+    <label for="formQuestion">Your question:</label>
+    <textarea id="formQuestion" name="formQuestion" rows="5" cols="30" maxlength="150" data-js="character-counter-question"></textarea>
+    <div data-js="character-count-question">150 characters remaining</div> <!--  Display character count -->
+
+    <!-- Add maxlength attribute and Step data attribute for character counter above -->
+    <!-- second item  -->
+    <label for="formAnswer">Your answer:</label>
+    <textarea id="formAnswer" name="formAnswer" rows="5" cols="30" maxlength="150" data-js="character-counter-answer"></textarea>
+    <div data-js="character-count-answer">150 characters remaining</div> <!-- Display character count -->
+
+    <!-- Add maxlength attribute and Step data attribute for character counter above -->
+    <!-- third item  -->
+    <label for="formTag">Your tag(s):</label>
+    <textarea id="formTag" name="formTag" rows="1" cols="30"></textarea>
+    <!-- Submit button -->
+    <button data-js="submitForm" class="submitForm" type="submit">Submit</button>
+  </form>
+</div>
+
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="nav-bar">
+        <div class="nav-item-1">
+          <a href="./index.html"
+            ><h2><img src="./resources/home.png" alt="home icon" /></h2
+          ></a>
+        </div>
+        <div class="nav-item-2">
+          <a href="./bookmarks.html"
+            ><h2>
+              <img src="./resources/bookmark_transparent.png" alt="bookmark icon" /></h2
+          ></a>
+        </div>
+        <div class="nav-item-4">
+          <a href="./form.html"
+            ><h2>
+              <img src="./resources/addForm_filled.png" alt="form icon" /></h2
+          ></a>
+      </div>
+        <div class="nav-item-3">
+          <a href="./profile.html"
+            ><h2>
+              <img src="./resources/profile.png" alt="profile icon" /></h2></a>
+      </div>
+    </footer>
+  </body>
+</html>
