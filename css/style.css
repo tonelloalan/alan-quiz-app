@@ -255,13 +255,14 @@ input:checked + .slider:before {
 }
 
 .submitForm {
-  padding: 7px;
+  display: block;
+  padding: 10px;
   border: none;
   background-color: var(--secondary-color);
   color: var(--darker-color);
   border-radius: 10px;
   margin: auto;
-  font-size: smaller;
+  font-size: small;
 }
 .form-container {
   display: flex;
