@@ -79,18 +79,6 @@ const characterLeftElementQuestion = document.querySelector(
   '[data-js="character-count-question"]'
 );
 
-quizForm.addEventListener("submit", (event) => {
-  // Preventing the default behavior.
-  event.preventDefault();
-
-  const formData = new FormData(event.target);
-
-  const data = Object.fromEntries(formData);
-
-  //To reset the values of my inputs.
-  event.target.reset();
-});
-
 messageInputQuestion.addEventListener("input", (e) => {
   characterLeftElementQuestion.textContent =
     MAX_CHARACTERS - parseInt(e.target.value.length) + " characters remaining";
@@ -105,18 +93,6 @@ const messageInputAnswer = document.querySelector(
 const characterLeftElementAnswer = document.querySelector(
   '[data-js="character-count-answer"]'
 );
-
-quizForm.addEventListener("submit", (event) => {
-  // Preventing the default behavior.
-  event.preventDefault();
-
-  const formData = new FormData(event.target);
-
-  const data = Object.fromEntries(formData);
-
-  //To reset the values of my inputs.
-  event.target.reset();
-});
 
 messageInputAnswer.addEventListener("input", (ev) => {
   characterLeftElementAnswer.textContent =
