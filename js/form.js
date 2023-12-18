@@ -67,3 +67,8 @@ quizForm.addEventListener("submit", function (event) {
     }
   });
 });
+
+// Get all elements with the data-js="character-counter" attribute
+const characterCounters = document.querySelectorAll(
+  '[data-js="character-counter"]'
+);
