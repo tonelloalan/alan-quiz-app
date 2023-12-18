@@ -11,7 +11,7 @@
 :root {
   --primary-color: #588157;
   --secondary-color: #dad7cd;
-  --darker-color: #7f7b6f;
+  --darker-color: #706c61;
   --primary-shadow: #a3b18a;
   --white: white;
   --blacks: #1a1918;
@@ -33,7 +33,7 @@ header {
   position: sticky;
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 2vh;
+  padding: 3vh;
   text-align: center;
   font-size: small;
   font-family: "playfair";
@@ -74,11 +74,10 @@ li {
 .profile-cards {
   border: solid var(--blacks) 0.5px;
   background-color: var(--white);
-  padding: 30px;
+  padding: 25px;
   margin: 30px;
   box-shadow: 0px 2px 10px 1px var(--primary-shadow);
   border-radius: 20px;
-  display: f;
 }
 
 .profile-card-1 {
