@@ -48,7 +48,7 @@ quizForm.addEventListener("submit", function (event) {
   cardContainer.appendChild(answerButton);
   cardContainer.appendChild(hashtagList);
 
-  //  append the cardContainer to it
+  //  append the cardContainer to the form page
   const questionCardsContainer = document.querySelector('[data-js="main"]');
   questionCardsContainer.append(cardContainer);
 
