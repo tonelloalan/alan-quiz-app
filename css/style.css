@@ -254,6 +254,17 @@ input:checked + .slider:before {
   font-size: smaller;
 }
 
+.submitForm {
+  text-align: center;
+  padding: 7px;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--darker-color);
+  border-radius: 10px;
+  margin: auto;
+  font-size: smaller;
+}
+
 button {
   transition: 0.2s linear;
 }
