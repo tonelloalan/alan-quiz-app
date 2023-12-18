@@ -33,6 +33,18 @@
 body {
   background-color: var(--secondary-color);
 }
+
+body.dark-mode {
+  --primary-color: var(--primary-color-dm);
+  --secondary-color: var(--secondary-color-dm);
+  --secondary-color-title: var(--secondary-color-title-dm);
+  --light-color: var(--light-color-dm);
+  --darker-color: var(--darker-color-dm);
+  --primary-shadow: var(--primary-shadow-dm);
+  --white: var(--white-dm);
+  --blacks: var(--blacks-dm);
+}
+
 header {
   /* position: sticky; */
   top: 0px;
