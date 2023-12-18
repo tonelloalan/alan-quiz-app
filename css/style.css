@@ -255,7 +255,6 @@ input:checked + .slider:before {
 }
 
 .submitForm {
-  text-align: center;
   padding: 7px;
   border: none;
   background-color: var(--secondary-color);
@@ -264,6 +263,14 @@ input:checked + .slider:before {
   margin: auto;
   font-size: smaller;
 }
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  text-align: left;
+}
 
 button {
   transition: all 0.2s linear;
@@ -271,6 +278,14 @@ button {
 
 button:hover {
   background-color: var(--light-color);
+}
+
+#quiz-form label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: medium;
 }
 
 .footer {
