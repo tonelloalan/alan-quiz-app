@@ -14,3 +14,6 @@ quizForm.addEventListener("submit", function (event) {
 
   //   console.log(event.target.elements);
 });
+
+const cardContainer = document.createElement("div"); // assigned new div element to a variable
+cardContainer.className = "question-card-1"; // gave style class to the card
