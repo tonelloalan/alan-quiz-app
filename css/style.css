@@ -11,6 +11,7 @@
 :root {
   --primary-color: #588157;
   --secondary-color: #dad7cd;
+  --darker-color: #7f7b6f;
   --primary-shadow: #a3b18a;
   --white: white;
   --blacks: #1a1918;
@@ -100,7 +101,7 @@ li {
 }
 
 .profile-card-2 img {
-  height: 30px;
+  height: 20px;
 }
 
 .profile-card-1 img {
@@ -198,8 +199,8 @@ input:checked + .slider:before {
   position: absolute;
   top: -10px;
   right: 28px;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
 }
 
 .question-cards {
@@ -241,8 +242,8 @@ input:checked + .slider:before {
   text-align: center;
   padding: 7px;
   border: none;
-  background-color: var(--blacks);
-  color: var(--white);
+  background-color: var(--secondary-color);
+  color: var(--darker-color);
   border-radius: 10px;
   margin: auto;
   /* margin-top: 1.5em; */
@@ -259,7 +260,7 @@ input:checked + .slider:before {
   background-color: var(--primary-color);
   display: flex;
   width: 100vw;
-  height: 9vh;
+  height: 8vh;
   justify-content: space-around;
   align-items: center;
 }
