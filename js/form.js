@@ -36,3 +36,8 @@ answerButton.className = "answer-button"; // gave style class to the new button
 answerButton.type = "button"; // add type to the new button element
 answerButton.setAttribute("data-js", "answer-button"); // gave further attributes to the button
 answerButton.textContent = "Show Answer"; // set the value of the new button text
+
+const hashtagList = document.createElement("ul"); // assigned new hashtag (ul) element to a variable
+const liElement = document.createElement("li"); // assigned new hashtag content (li) element to a variable
+liElement.textContent = formTagInput; // set the content of the hashtag text to  a new variable
+hashtagList.appendChild(liElement); // append the content of the hashtag text to the parent element (ul) as a child element
