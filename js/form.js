@@ -30,3 +30,9 @@ questionText.textContent = formQuestionInput; // set the value of the new questi
 const answerText = document.createElement("h4"); // assigned new h4 element (answer text) to a variable
 answerText.textContent = formAnswerInput; // set the value of the new answerText to show up in the new card
 answerText.className = "hidden"; // add class name, assuming new answers should also initiate hidden
+
+const answerButton = document.createElement("button"); // assigned new button element to a variable
+answerButton.className = "answer-button"; // gave style class to the new button
+answerButton.type = "button"; // add type to the new button element
+answerButton.setAttribute("data-js", "answer-button"); // gave further attributes to the button
+answerButton.textContent = "Show Answer"; // set the value of the new button text
