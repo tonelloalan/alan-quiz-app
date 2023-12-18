@@ -11,6 +11,7 @@
 :root {
   --primary-color: #588157;
   --secondary-color: #dad7cd;
+  --light-color: #ebe9e1;
   --darker-color: #706c61;
   --primary-shadow: #a3b18a;
   --white: white;
@@ -247,6 +248,14 @@ input:checked + .slider:before {
   margin: auto;
   /* margin-top: 1.5em; */
   font-size: smaller;
+}
+
+button {
+  transition: 0.2s linear;
+}
+
+button:hover {
+  background-color: var(--light-color);
 }
 
 .footer {
