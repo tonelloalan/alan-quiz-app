@@ -68,7 +68,57 @@ quizForm.addEventListener("submit", function (event) {
   });
 });
 
-// Get all elements with the data-js="character-counter" attribute
-const characterCounters = document.querySelectorAll(
-  '[data-js="character-counter"]'
+// display remaining characters for question
+const MAX_CHARACTERS = 150;
+
+const messageInputQuestion = document.querySelector(
+  '[data-js="character-counter-question"]'
 );
+
+const characterLeftElementQuestion = document.querySelector(
+  '[data-js="character-count-question"]'
+);
+
+quizForm.addEventListener("submit", (event) => {
+  // Preventing the default behavior.
+  event.preventDefault();
+
+  const formData = new FormData(event.target);
+
+  const data = Object.fromEntries(formData);
+
+  //To reset the values of my inputs.
+  event.target.reset();
+});
+
+messageInputQuestion.addEventListener("input", (e) => {
+  characterLeftElementQuestion.textContent =
+    MAX_CHARACTERS - parseInt(e.target.value.length) + " characters remaining";
+});
+
+// display remaining characters for answer
+
+const messageInputAnswer = document.querySelector(
+  '[data-js="character-counter-answer"]'
+);
+
+const characterLeftElementAnswer = document.querySelector(
+  '[data-js="character-count-answer"]'
+);
+
+quizForm.addEventListener("submit", (event) => {
+  // Preventing the default behavior.
+  event.preventDefault();
+
+  const formData = new FormData(event.target);
+
+  const data = Object.fromEntries(formData);
+
+  //To reset the values of my inputs.
+  event.target.reset();
+});
+
+messageInputAnswer.addEventListener("input", (ev) => {
+  characterLeftElementAnswer.textContent =
+    MAX_CHARACTERS - parseInt(ev.target.value.length) + " characters remaining";
+});
