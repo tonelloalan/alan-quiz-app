@@ -41,3 +41,10 @@ const hashtagList = document.createElement("ul"); // assigned new hashtag (ul) e
 const liElement = document.createElement("li"); // assigned new hashtag content (li) element to a variable
 liElement.textContent = formTagInput; // set the content of the hashtag text to  a new variable
 hashtagList.appendChild(liElement); // append the content of the hashtag text to the parent element (ul) as a child element
+
+// appending new elements to the card container
+cardContainer.appendChild(bookmarkImg);
+cardContainer.appendChild(questionText);
+cardContainer.appendChild(answerText);
+cardContainer.appendChild(answerButton);
+cardContainer.appendChild(hashtagList);
