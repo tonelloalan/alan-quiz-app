@@ -2,9 +2,6 @@ const bookmarkIcon = document.querySelector("[data-js=bookmark-icon]");
 // console.log(bookmarkIcon);
 const answerButton = document.querySelector("[data-js=answer-button]");
 
-const submitButton = document.querySelector("[data-js=submitForm]");
-console.log(submitButton);
-
 bookmarkIcon.addEventListener("click", function () {
   // Check the current source of the bookmark icon
   if (bookmarkIcon.src.endsWith("/resources/bookmark.png")) {
