@@ -24,16 +24,15 @@ Submit button -->
 <form id="quiz-form"> <!-- initiate form -->
     <!-- first item -->
     <label for="formQuestion">Your question:</label>
-    <textarea id="formQuestion" name="formQuestion" rows="5" cols="30" maxlength="150"></textarea>
-    <!-- Add maxlength attribute above -->
+    <textarea id="formQuestion" name="formQuestion" rows="5" cols="30" maxlength="150" data-js="character-counter"></textarea>
+    <!-- Add maxlength attribute and Step data attribute for character counter above -->
     <!-- second item  -->
     <label for="formAnswer">Your answer:</label>
-    <textarea id="formAnswer" name="formAnswer" rows="5" cols="30" maxlength="150"></textarea>
-        <!-- Add maxlength attribute above -->
+    <textarea id="formAnswer" name="formAnswer" rows="5" cols="30" maxlength="150" data-js="character-counter"></textarea>
+    <!-- Add maxlength attribute and Step data attribute for character counter above -->
     <!-- third item  -->
     <label for="formTag">Your tag(s):</label>
-    <textarea id="formTag" name="formTag" rows="5" cols="30" maxlength="150"></textarea>
-        <!-- Add maxlength attribute above -->
+    <textarea id="formTag" name="formTag" rows="5" cols="30"></textarea>
     <!-- Submit button -->
     <button data-js="submitForm" class="submitForm" type="submit">Submit</button>
   </form>
