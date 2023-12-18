@@ -1,4 +1,5 @@
-const submitButton = document.querySelector("[data-js=submitForm]");
-// console.log(submitButton);
+const quizForm = document.getElementById("quiz-form");
 
-submitButton.addEventListener("submit", function () {});
+quizForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+});
