@@ -23,3 +23,10 @@ bookmarkImg.className = "bookmark-img"; // gave style class to the image
 bookmarkImg.src = "./resources/bookmark.png"; // gave source for the image
 bookmarkImg.alt = "bookmark icon"; // gave alt text  to the image
 bookmarkImg.setAttribute("data-js", "bookmark-icon"); // gave further attributes to the image
+
+const questionText = document.createElement("h3"); // assigned new h3 element (question text) to a variable
+questionText.textContent = formQuestionInput; // set the value of the new questionAnswer to show up in the new card
+
+const answerText = document.createElement("h4"); // assigned new h4 element (answer text) to a variable
+answerText.textContent = formAnswerInput; // set the value of the new answerText to show up in the new card
+answerText.className = "hidden"; // add class name, assuming new answers should also initiate hidden
