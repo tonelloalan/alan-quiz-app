@@ -9,13 +9,24 @@
 }
 
 :root {
+  --primary-color-dm: #1a1918;
+  --secondary-color-dm: #222222;
+  --secondary-color-title-dm: #dad7cd;
+  --light-color-dm: #161304;
+  --darker-color-dm: #514e47;
+  --primary-shadow-dm: #151810;
+  --white-dm: #50584d;
+  --blacks-dm: #1a1918;
+
   --primary-color: #588157;
   --secondary-color: #dad7cd;
+  --secondary-color-title: #dad7cd;
   --light-color: #ebe9e1;
   --darker-color: #706c61;
   --primary-shadow: #a3b18a;
   --white: white;
   --blacks: #1a1918;
+
   font-family: "playfair";
 }
 
@@ -33,7 +44,7 @@ header {
   /* min-height: 50px; */
   position: sticky;
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: var(--secondary-color-title);
   padding: 3vh;
   text-align: center;
   font-size: small;
