@@ -17,3 +17,9 @@ quizForm.addEventListener("submit", function (event) {
 
 const cardContainer = document.createElement("div"); // assigned new div element to a variable
 cardContainer.className = "question-card-1"; // gave style class to the card
+
+const bookmarkImg = document.createElement("img"); // assigned new img element to a variable
+bookmarkImg.className = "bookmark-img"; // gave style class to the image
+bookmarkImg.src = "./resources/bookmark.png"; // gave source for the image
+bookmarkImg.alt = "bookmark icon"; // gave alt text  to the image
+bookmarkImg.setAttribute("data-js", "bookmark-icon"); // gave further attributes to the image
