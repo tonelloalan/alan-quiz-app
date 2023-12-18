@@ -266,7 +266,7 @@ input:checked + .slider:before {
 }
 
 button {
-  transition: 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 button:hover {
