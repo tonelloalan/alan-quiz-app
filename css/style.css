@@ -212,7 +212,11 @@ input:checked + .slider:before {
 }
 
 .question-cards h4 {
-  color: white;
+  color: var(--blacks);
+}
+
+.hidden {
+  display: none;
 }
 
 .question-card-1,
