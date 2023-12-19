@@ -55,7 +55,7 @@ quizForm.addEventListener("submit", function (event) {
   answerButton.addEventListener("click", function () {
     // Get the h4 element inside the question card
     const answerText = document.querySelector(".question-card-1 h4");
-    console.log(answerButton);
+    // console.log(answerButton);
 
     // Toggle the 'hidden' class on the h4 element
     answerText.classList.toggle("hidden");
@@ -66,6 +66,14 @@ quizForm.addEventListener("submit", function (event) {
       answerButton.innerText = "Show Answer";
     }
   });
+
+  event.target.reset(); // reset form fields
+
+  // Reset character count elements
+  characterLeftElementQuestion.textContent =
+    MAX_CHARACTERS + " characters remaining";
+  characterLeftElementAnswer.textContent =
+    MAX_CHARACTERS + " characters remaining";
 });
 
 // display remaining characters for question
