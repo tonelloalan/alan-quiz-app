@@ -9,10 +9,13 @@
 }
 
 :root {
+
   --primary-color-dm: #1a1918;
   --secondary-color-dm: #2c2c2a;
+  --primary-color-dm: #373c35;
+  --secondary-color-dm: #242422;
   --secondary-color-title-dm: #dad7cd;
-  --light-color-dm: #d0b010;
+  --light-color-dm: #211d09;
   --darker-color-dm: #514e47;
   --primary-shadow-dm: #262a1f;
   --white-dm: #4e534d;
